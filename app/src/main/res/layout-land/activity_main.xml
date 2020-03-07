@@ -100,9 +100,9 @@
     <GridLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/body"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true">
+        android:layout_toRightOf="@id/body"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="60dp">
 
         <CheckBox
             android:id="@+id/cb_mouth"
